@@ -1,0 +1,4 @@
+<?php
+$str =  str_limit($service->description, 150);
+echo html_entity_decode($str);
+?>
